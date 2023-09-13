@@ -30,9 +30,9 @@ namespace LoggingKata.Test
             //       each representing a TacoBell location
 
             //Arrange
-
+            var tacoParserinstance = new TacoParser();
             //Act
-
+            string actual = tacoParserinstance.GetDistanceTo();
             //Assert
         }
 

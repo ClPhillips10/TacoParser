@@ -8,7 +8,7 @@ namespace LoggingKata
     class Program
     {
         static readonly ILog logger = new TacoLogger();
-        const string csvPath = "TacoBell-US-AL.csv";
+        const string csvPath = "TacoBell-US-AL.csv"; 
 
         static void Main(string[] args)
         {
