@@ -21,7 +21,7 @@
                 // Do not fail if one record parsing fails, return null
                 logger.LogWarning("Less than 3 items in the Array");
                 
-                return null; // TODO Implement
+                return null; 
             }
 
             // grab the latitude from your array at index 0
